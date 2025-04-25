@@ -15,37 +15,59 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <title>GSAP Landing Page</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <section class="banner">
       <div class="content">
         <div class="heading-and-btns">
           <div class="reviews-container">
-            <p>4.8</p>
-            <i class="fa-solid fa-star"></i>
-            <p>3k+ reviews on</p>
-            <i class="fa-brands fa-app-store-ios"></i>
-            <i class="fa-brands fa-google-play"></i>
+            <div class="reviews">
+              <p>4.8</p>
+              <i class="fa-solid fa-star"></i>
+              <p>3k+ reviews on</p>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <i class="fa-brands fa-google-play"></i>
+            </div>
           </div>
-          <h1 class="main-heading">
-            Modern <span>payments</span> for markets.
-          </h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            nostrum maiores incidunt, fugit consectetur quasi, quam ullam ipsam
-            ut dolores magnam, explicabo molestiae in sunt natus quas aperiam
-            illo laudantium.
-          </p>
+          <div class="heading">
+            <div class="crop-container">
+              <h1 class="main-heading first-line">
+                Modern <span>payments</span>
+              </h1>
+            </div>
+            <div class="crop-container">
+              <h1 class="main-heading second-line">for markets.</h1>
+            </div>
+          </div>
+          <div class="crop-container">
+            <p class="desc">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              nostrum maiores incidunt, fugit consectetur quasi, quam ullam
+              ipsam ut dolores magnam, explicabo molestiae in sunt natus quas
+              aperiam illo laudantium.
+            </p>
+          </div>
           <div class="buttons">
-            <button class="primary">Start now</button>
-            <button class="secondary">Learn more</button>
+            <div class="crop-container">
+              <button class="primary">Start now</button>
+            </div>
+            <div class="crop-container">
+              <button class="secondary">Learn more</button>
+            </div>
           </div>
         </div>
         <div class="bottom-elements">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tenetur
-            natus dignissimos dolor rerum alias voluptas quia!
-          </p>
+          <div class="crop-container">
+            <p class="btm-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              tenetur natus dignissimos dolor rerum alias voluptas quia!
+            </p>
+          </div>
           <div class="logos">
             <div class="logo-container">
               <img
@@ -71,7 +93,13 @@
           </div>
         </div>
       </div>
-      <div class="hero"></div>
+      <div class="hero">
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+        <div class="grid-container"></div>
+      </div>
     </section>
   </body>
 </html>
